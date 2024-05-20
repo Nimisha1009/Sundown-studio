@@ -29,12 +29,14 @@ nav{
     }
 #nav-part2 h4{
 padding: 10px 20px;
-border: 1px solid rgb(87, 84, 84);
+border: 1px solid rgba(15, 15, 15, 0.212);
 border-radius: 50px;
 font-weight: 500;
 color: #000000bb;
 font-size: 18px;
 position: relative;
+overflow: hidden;
+transition: all ease 0.4s;
 }
 #nav-part2 h4::after{
     content: "";
@@ -45,8 +47,20 @@ position: relative;
     left: 0;
     bottom: -100%;
     border-radius: 50%;
-    transition: all ease 0.3s;
+    transition: all ease 0.4s;
 }
 #nav-part2 h4:hover::after{
     bottom: 0;
+    border-radius: 0;
+}
+#nav-part2 h4 a{
+    text-decoration: none;
+    color: #000000bb;
+    position: relative;
+    z-index: 9;
+}
+#center{
+    height: 65vh;
+    width: 100%;
+    background-color: orange;
 }
