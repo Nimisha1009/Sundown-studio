@@ -1,8 +1,13 @@
+@font-face {
+    font-family: neu;
+    src: url(./NeueHaasDisplayRoman.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
 box-sizing: border-box;
-font-family: 'Gilroy' ;
+font-family: 'neu' ;
 }
 html, body{
 height: 100%;
@@ -10,12 +15,13 @@ width: 100%;
 }
 #page1{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #EFEAE3 ;
     position: relative;
+    padding: 0 2vw;
 }
 nav{
-    padding: 2vw 2vw;
+    padding: 2vw 0vw;
     width: 100%;
     display: flex;
     align-items: center;
@@ -59,8 +65,31 @@ transition: all ease 0.4s;
     position: relative;
     z-index: 9;
 }
+#nav-part2 h4:hover a{
+    color: white;
+}
 #center{
     height: 65vh;
     width: 100%;
-    background-color: orange;
+    padding-bottom: 2vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid #0000003c;
+}
+#left h3
+{
+    width: 25vw;
+    font-size: 1.8vw;
+    line-height: 2vw;
+}
+#center h1{
+    font-size: 9vw;
+    line-height: 7vw;
+    text-align: right;
+}
+#page1 video{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 4vw;
 }
