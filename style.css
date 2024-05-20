@@ -92,4 +92,70 @@ transition: all ease 0.4s;
     width: 100%;
     border-radius: 30px;
     margin-top: 4vw;
+    position: relative;
+}
+
+#hero-shape{
+    height: 36vw;
+    width: 46vw;
+   
+    position: absolute;
+    right: 0;
+    top: 65vh;
+}
+#hero1{
+    background-color: orangered;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    filter: blur(20px);
+    position: absolute;
+
+}
+#hero2{
+    background: linear-gradient(orangered,#fe5708);
+    height: 30vw;
+    width: 30vw;
+   border-radius: 50%;
+    filter: blur(25px);
+    position: absolute;
+    animation-name: anime2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+#hero3{
+    background: linear-gradient(orangered,#fe5708);
+    height: 30vw;
+    width: 30vw;
+  border-radius: 50%;
+    filter: blur(25px);
+    position: absolute;
+    animation-name: anime1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes anime1 {
+    from{
+        transform: translate(55%,-3%);
+    }
+    to{
+        transform: translate(0%,10%);
+    }
+    
+}
+@keyframes anime2 {
+    from{
+        transform: translate(5%,-5%);
+    }
+    to{
+        transform: translate(-20%,30%);
+    }
+    
 }
