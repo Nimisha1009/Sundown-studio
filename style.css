@@ -318,3 +318,24 @@ transition: all ease 0.4s;
 .elem:hover .overlay {
     top: 0;
 }
+#page4{
+    height:60vh;
+    width: 100%;
+    background-color:#EFEAE3;
+
+}
+#page5{
+    height:100vh;
+    width: 100%;
+   /* background-color:#EFEAE3; */
+
+}
+#main{
+    background-color: black;
+}
+#footer{
+    position: fixed;
+    z-index: 99;
+    height: 60vh;
+    border: 0;
+}
