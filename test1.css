@@ -1,0 +1,34 @@
+
+#gooey1{
+    height: 30vw;
+    width: 30vw;
+    background-color: orangered;
+    border-radius: 90%;
+    filter: blur(40px);
+    position: relative;
+    animation-name: anime;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+#gooey2{
+    height: 70vh;
+    width: 100%;
+    background-color: orangered;
+    top: 30%;
+     right: 4%;
+    filter: blur(45px);
+    position: absolute;
+
+   
+}
+@keyframes anime {
+    from{
+        transform: translate(-10%,-10%);
+    }
+    to{
+        transform: translate(10%,10%);
+    }
+}

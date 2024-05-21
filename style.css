@@ -373,6 +373,11 @@ transition: all ease 0.4s;
     height: 20vh;
     width: 100%;
     background-color: black;
+   
+}
+#footer-div h1{
+    position: relative;
+   
 }
 #footer-bottom
 {
@@ -387,6 +392,46 @@ transition: all ease 0.4s;
     padding: 0 6vw;
     
 }
+#gooey1{
+    height: 30vw;
+    width: 30vw;
+    background-color: rgba(255, 68, 0, 0.267);
+    border-radius: 50%;
+    filter: blur(40px);
+    position: relative;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+#gooey2{
+    height: 55vh;
+    width: 70vw;
+    background-color: orangered;
+    top: 10%;
+     right: 2%;
+    filter: blur(45px);
+    position: absolute;
+    border-radius: 40%;
+    animation-name: anime;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+   
+}
+@keyframes anime {
+    from{
+        transform: translate(-10%,-10%);
+    }
+    to{
+        transform: translate(10%,10%);
+    }
+}
+
 
 
    
