@@ -202,8 +202,8 @@ transition: all ease 0.4s;
     display: inline-block;
 }
 #gola {
-    height: 70px;
-    width: 70px;
+    height: 90px;
+    width: 90px;
     border-radius: 50%;
     display: inline-block;
     background-color: #FE320A;
@@ -372,7 +372,7 @@ transition: all ease 0.4s;
 #footer-div{
     height: 20vh;
     width: 100%;
-    background-color: red;
+    background-color: black;
 }
 #footer-bottom
 {
@@ -592,7 +592,15 @@ transition: all ease 0.4s;
                         width: 40%;
                         padding: 0 2vw;
                       }
-                
+                      #footer-bottom h3{
+                        display: flex;
+                        align-items: center;
+                        display: inline-block;
+                        padding: 0 6vw;
+                        font-size: small;
+                        
+                    }
+                    
                 
                 }
                 
